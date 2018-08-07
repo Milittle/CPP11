@@ -19,6 +19,28 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="chapter-01\1-03.cpp" />
+    <ClCompile Include="chapter-01\1-04.cpp" />
+    <ClCompile Include="chapter-01\1-05.cpp" />
+    <ClCompile Include="chapter-01\1-09.cpp" />
+    <ClCompile Include="chapter-01\1-10.cpp" />
+    <ClCompile Include="chapter-01\1-11.cpp" />
+    <ClCompile Include="chapter-01\1-13.cpp" />
+    <ClCompile Include="chapter-01\1-16.cpp" />
+    <ClCompile Include="chapter-01\1-18.cpp" />
+    <ClCompile Include="chapter-01\1-20.cpp" />
+    <ClCompile Include="chapter-01\1-21.cpp" />
+    <ClCompile Include="chapter-01\1-22.cpp" />
+    <ClCompile Include="chapter-01\1-23.cpp" />
+    <ClCompile Include="chapter-01\1-25.cpp" />
+    <ClCompile Include="chapter-01\Sales_item.cpp" />
+    <ClCompile Include="chapter-02\2-03.cpp" />
+    <ClCompile Include="chapter-08\8-01.cpp" />
+    <ClCompile Include="chapter-08\8-04.cpp" />
+    <ClCompile Include="chapter-08\8-05.cpp" />
+    <ClCompile Include="chapter-10\10-06.cpp" />
+    <ClCompile Include="chapter-10\10-07.cpp" />
+    <ClCompile Include="chapter-10\10-09.cpp" />
     <ClCompile Include="chapter-10\10-11.cpp" />
     <ClCompile Include="chapter-10\10-12.cpp" />
     <ClCompile Include="chapter-10\10-13.cpp" />
@@ -30,14 +52,30 @@
     <ClCompile Include="chapter-10\10-19.cpp" />
     <ClCompile Include="chapter-10\10-20.cpp" />
     <ClCompile Include="chapter-10\10-21.cpp" />
-    <ClCompile Include="chapter-10\10-6.cpp" />
-    <ClCompile Include="chapter-10\10-7.cpp" />
-    <ClCompile Include="chapter-10\10-9.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="chapter-10\10-06.cpp" />
+    <ClCompile Include="chapter-10\10-07.cpp" />
+    <ClCompile Include="chapter-10\10-09.cpp" />
     <ClCompile Include="chapter-10\Test10.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="chapter-01\Test01.cpp" />
+    <ClCompile Include="chapter-02\Test02.cpp" />
+    <ClCompile Include="chapter-08\Test08.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="chapter-01\Sales_item.h" />
     <ClInclude Include="chapter-10\Test10.h" />
+    <ClInclude Include="chapter-01\Test01.h" />
+    <ClInclude Include="chapter-02\Test02.h" />
+    <ClInclude Include="chapter-08\Test08.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chapter-01\README.md" />
+    <None Include="chapter-02\README.md" />
+    <None Include="chapter-08\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="chapter-08\1.txt" />
+    <Text Include="chapter-08\2.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

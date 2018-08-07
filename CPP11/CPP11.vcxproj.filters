@@ -18,16 +18,73 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="chapter-10\10-6.cpp">
+    <ClCompile Include="chapter-01\1-03.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="chapter-10\10-7.cpp">
+    <ClCompile Include="chapter-01\1-04.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="chapter-10\10-9.cpp">
+    <ClCompile Include="chapter-01\1-05.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-01\1-09.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-01\1-10.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-01\1-11.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-01\1-13.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-01\1-16.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-01\1-18.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-01\1-20.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-01\1-21.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-01\1-22.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-01\1-23.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-01\1-25.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-02\2-03.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-08\8-01.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-08\8-04.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-08\8-05.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-10\10-06.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-10\10-07.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-10\10-09.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="chapter-10\10-11.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-10\10-12.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="chapter-10\10-13.cpp">
@@ -42,16 +99,10 @@
     <ClCompile Include="chapter-10\10-16.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="chapter-10\10-12.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="chapter-10\10-17.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="chapter-10\10-18.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="chapter-10\Test10.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="chapter-10\10-19.cpp">
@@ -63,10 +114,55 @@
     <ClCompile Include="chapter-10\10-21.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="chapter-10\Test10.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-10\10-06.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-10\10-07.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-10\10-09.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-01\Test01.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-02\Test02.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-08\Test08.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-01\Sales_item.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="chapter-01\Sales_item.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="chapter-10\Test10.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="chapter-01\Test01.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter-02\Test02.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter-08\Test08.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chapter-01\README.md" />
+    <None Include="chapter-02\README.md" />
+    <None Include="chapter-08\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="chapter-08\1.txt" />
+    <Text Include="chapter-08\2.txt" />
   </ItemGroup>
 </Project>
