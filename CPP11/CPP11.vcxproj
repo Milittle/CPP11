@@ -52,9 +52,6 @@
     <ClCompile Include="chapter-10\10-19.cpp" />
     <ClCompile Include="chapter-10\10-20.cpp" />
     <ClCompile Include="chapter-10\10-21.cpp" />
-    <ClCompile Include="chapter-10\10-06.cpp" />
-    <ClCompile Include="chapter-10\10-07.cpp" />
-    <ClCompile Include="chapter-10\10-09.cpp" />
     <ClCompile Include="chapter-10\Test10.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="chapter-01\Test01.cpp" />

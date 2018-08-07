@@ -117,15 +117,6 @@
     <ClCompile Include="chapter-10\Test10.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="chapter-10\10-06.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="chapter-10\10-07.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="chapter-10\10-09.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="chapter-01\Test01.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
