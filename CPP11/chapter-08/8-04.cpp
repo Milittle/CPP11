@@ -5,7 +5,7 @@ using std::vector;
 
 void Test08::test_8_4()
 {
-	ifstream file("./1.txt");
+	ifstream file("1.txt");
 	vector<string> v;
 	char c[20];
 	if (file) 

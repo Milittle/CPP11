@@ -4,9 +4,13 @@
 #include<list>
 #include<iostream>
 #include<algorithm>
+#include<functional>
+#include<iterator>
+#include<fstream>
 
 /**
 *　其实在功能函数里面写输出语句是不太好的
+*  但是是测试程序就勉强看吧
 */
 
 class Test10
@@ -27,15 +31,27 @@ public:
 	void test_10_14();
 	void test_10_15();
 	void test_10_16(std::vector<std::string> &, std::vector<std::string>::size_type &);
-
-
 	void test_10_18(std::vector<std::string> &, std::vector<std::string>::size_type &);
-
 	void test_10_19(std::vector<std::string> &, std::vector<std::string>::size_type &);
-
 	void test_10_20(std::vector<std::string> &, std::vector<std::string>::size_type &);
-
 	void test_10_21();
+	void test_10_22(std::vector<std::string> &, std::vector<std::string>::size_type &);
+	void test_10_24(std::vector<int> &, std::string &);
+	void test_10_25(std::vector<std::string> &, std::vector<std::string>::size_type &);
+	void test_10_27(std::vector<int> &, std::list<int> &);
+	void test_10_28_back(std::vector<int> &, std::list<int> &);
+	void test_10_28_front(std::vector<int> &, std::list<int> &);
+	void test_10_28_insert(std::vector<int> &, std::list<int> &);
+	void test_10_29();
+	void test_10_30();
+	void test_10_31();
+	void test_10_32_1();
+	void test_10_33();
+	void test_10_34();
+	void test_10_35();
+	void test_10_36();
+	void test_10_37();
+	void test_10_42(std::list<std::string> &);
 
 public:
 	static void test()
