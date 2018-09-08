@@ -1,0 +1,3 @@
+### 2.7习题解释
+1. "Who goes with F\145rgus?\012" 以八进制解析那两个数字
+2. 3.14e1L long double 字面值 1024f 编译通不过 3.14L long double 字面值

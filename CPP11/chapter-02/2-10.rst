@@ -1,0 +1,12 @@
+### 2-10习题解释
+std::string global_str;
+int global_int;
+int main()
+{
+	int local_int;
+	std::string local_str;
+}
+
+1. 根据以上程序，因为string作为类有默认的值，所以不管是局部还是全局都是空串
+2. 反而对于内置类型int来说，全局的global_int是0，局部是未定义，也就是未初始化状态
+3. 所以确保内置类型局部变量的初始化还是有必要的。因为有时候使用未定义的值会出现奇奇怪怪的错误，不好debug

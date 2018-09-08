@@ -8,5 +8,6 @@ public:
 	~Test02();
 public:
 	void test_2_3();
+	void test_2_8();
 };
 
