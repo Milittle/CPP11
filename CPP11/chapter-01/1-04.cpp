@@ -7,6 +7,6 @@ void Test01::test_1_4()
 	std::cin >> a;
 	std::cout << "b = ";
 	std::cin >> b;
-	std::cout << "a + b = " << a + b << std::endl;
+	std::cout << "a * b = " << a * b << std::endl;
 }
 

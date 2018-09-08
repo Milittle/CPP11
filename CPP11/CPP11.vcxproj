@@ -35,6 +35,7 @@
     <ClCompile Include="chapter-01\1-25.cpp" />
     <ClCompile Include="chapter-01\Sales_item.cpp" />
     <ClCompile Include="chapter-02\2-03.cpp" />
+    <ClCompile Include="chapter-02\2-08.cpp" />
     <ClCompile Include="chapter-08\8-01.cpp" />
     <ClCompile Include="chapter-08\8-04.cpp" />
     <ClCompile Include="chapter-08\8-05.cpp" />
@@ -74,6 +75,7 @@
     <ClCompile Include="chapter-11\11-04.cpp" />
     <ClCompile Include="chapter-11\11-07.cpp" />
     <ClCompile Include="chapter-11\11-08.cpp" />
+    <ClCompile Include="chapter-11\11-09.cpp" />
     <ClCompile Include="chapter-11\11-12.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="chapter-01\Test01.cpp" />
@@ -91,10 +93,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="chapter-01\README.md" />
+    <None Include="chapter-02\2-05.rst" />
+    <None Include="chapter-02\2-06.rst" />
+    <None Include="chapter-02\2-07.rst" />
+    <None Include="chapter-02\2-09.rst" />
+    <None Include="chapter-02\2-10.rst" />
+    <None Include="chapter-02\2-2-ATTENTION.md" />
+    <None Include="chapter-02\2-1-ATTENTION.md" />
     <None Include="chapter-02\README.md" />
     <None Include="chapter-08\README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="chapter-01\1-06.txt" />
     <Text Include="chapter-08\1.txt" />
     <Text Include="chapter-08\2.txt" />
     <Text Include="chapter-10\1.txt" />
@@ -177,7 +187,7 @@
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>NotSet</SubSystem>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -188,7 +198,7 @@
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>NotSet</SubSystem>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
