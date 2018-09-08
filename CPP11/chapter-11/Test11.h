@@ -5,6 +5,7 @@
 #include<set>
 #include<algorithm>
 #include<vector>
+#include<list>
 class Test11
 {
 public:
@@ -18,6 +19,7 @@ public:
 	void test_11_4();
 	void test_11_7();
 	void test_11_8();
+	void test_11_9();
 	void test_11_8_set();
 	void test_11_12();
 };

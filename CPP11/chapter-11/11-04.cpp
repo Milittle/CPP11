@@ -5,7 +5,7 @@ char trans(char a)
 	if (a == ',' || a == '.')
 		return '\0';
 	else if (a >= 'A' && a <= 'Z')
-		a = a + 32;
+		return a + 32;
 	else
 		return a;
 }
@@ -20,6 +20,7 @@ void Test11::test_11_4()
 	{
 		std::string temp;
 		std::transform(word.begin(), word.end(), std::back_inserter(temp), ::trans);
+		//这个目的是为了出去末尾的空字符
 		temp.erase(std::find(temp.begin(), temp.end(), '\0'));
 		if (std::find(words.begin(), words.end(), temp) == words.end())
 		{
