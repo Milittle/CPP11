@@ -36,6 +36,9 @@
     <ClCompile Include="chapter-01\Sales_item.cpp" />
     <ClCompile Include="chapter-02\2-03.cpp" />
     <ClCompile Include="chapter-02\2-08.cpp" />
+    <ClCompile Include="chapter-02\2-13.cpp" />
+    <ClCompile Include="chapter-02\2-14.cpp" />
+    <ClCompile Include="chapter-02\2-17.cpp" />
     <ClCompile Include="chapter-08\8-01.cpp" />
     <ClCompile Include="chapter-08\8-04.cpp" />
     <ClCompile Include="chapter-08\8-05.cpp" />
@@ -99,8 +102,13 @@
     <None Include="chapter-02\2-09.rst" />
     <None Include="chapter-02\2-10.rst" />
     <None Include="chapter-02\2-11.rst" />
+    <None Include="chapter-02\2-12.rst" />
+    <None Include="chapter-02\2-15.rst" />
+    <None Include="chapter-02\2-16.rst" />
     <None Include="chapter-02\2-2-ATTENTION.md" />
     <None Include="chapter-02\2-1-ATTENTION.md" />
+    <None Include="chapter-02\2-3-ATTENTION.md" />
+    <None Include="chapter-02\2-4-ATTENTION.md" />
     <None Include="chapter-02\README.md" />
     <None Include="chapter-08\README.md" />
   </ItemGroup>

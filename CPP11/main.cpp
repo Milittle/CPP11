@@ -15,11 +15,10 @@ int main()
 	//Test02 * test2 = new Test02;
 
 	//test2->test_2_8();
-	int j = 0;
-	int *p;
-	int **pp = &p;
-	int **&i = pp;
 
+	int i = 0;
+	const int &ri = i;
+	constexpr int &rri = i;
 
 
 
