@@ -1,0 +1,6 @@
+### 2-15习题解释
+int ival = 1.01;
+int &val1 = 1.01;
+int &rval2 = ival;
+int &rval3; 
+以上的只有第一个和第三个合法

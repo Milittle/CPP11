@@ -236,6 +236,7 @@
     <None Include="chapter-02\2-1-ATTENTION.md" />
     <None Include="chapter-02\2-09.rst" />
     <None Include="chapter-02\2-10.rst" />
+    <None Include="chapter-02\2-11.rst" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="chapter-08\1.txt" />

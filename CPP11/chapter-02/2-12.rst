@@ -1,0 +1,6 @@
+### 2-12习题解释
+int double = 3.14; 违法
+int _; 不违法
+int catch-22; 违法
+int 1_or_2 = 1; 违法
+double Doulble = 3.14 不违法
