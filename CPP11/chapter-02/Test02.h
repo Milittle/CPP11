@@ -4,6 +4,10 @@
 class Test02
 {
 public:
+	static Test02 & getInstance(){
+		Test02 test02;
+		return test02;
+	}
 	Test02();
 	~Test02();
 public:

@@ -213,6 +213,33 @@
     <ClCompile Include="chapter-02\2-17.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="chapter-03\Test03.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-03\3-02.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-03\3-04.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-03\3-05.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-12\Test12.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-13\Test13.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-15\Test15.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-15\15_3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-15\15_6.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter-01\Sales_item.h">
@@ -233,6 +260,18 @@
     <ClInclude Include="chapter-11\Test11.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="chapter-03\Test03.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter-12\Test12.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter-13\Test13.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter-15\Test15.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="chapter-01\README.md" />
@@ -251,6 +290,12 @@
     <None Include="chapter-02\2-15.rst" />
     <None Include="chapter-02\2-16.rst" />
     <None Include="chapter-02\2-4-ATTENTION.md" />
+    <None Include="chapter-02\2-5-ATTENTION.md" />
+    <None Include="chapter-03\3-02-ATTENTION.rst" />
+    <None Include="chapter-08\ATTENTION.md" />
+    <None Include="chapter-15\15_1_ATTENTION.md" />
+    <None Include="chapter-15\15_2_ATTENTION.md" />
+    <None Include="chapter-15\15_3_ATTENTION.md" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="chapter-08\1.txt" />

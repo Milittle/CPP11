@@ -39,6 +39,9 @@
     <ClCompile Include="chapter-02\2-13.cpp" />
     <ClCompile Include="chapter-02\2-14.cpp" />
     <ClCompile Include="chapter-02\2-17.cpp" />
+    <ClCompile Include="chapter-03\3-02.cpp" />
+    <ClCompile Include="chapter-03\3-04.cpp" />
+    <ClCompile Include="chapter-03\3-05.cpp" />
     <ClCompile Include="chapter-08\8-01.cpp" />
     <ClCompile Include="chapter-08\8-04.cpp" />
     <ClCompile Include="chapter-08\8-05.cpp" />
@@ -80,11 +83,17 @@
     <ClCompile Include="chapter-11\11-08.cpp" />
     <ClCompile Include="chapter-11\11-09.cpp" />
     <ClCompile Include="chapter-11\11-12.cpp" />
+    <ClCompile Include="chapter-15\15_3.cpp" />
+    <ClCompile Include="chapter-15\15_6.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="chapter-01\Test01.cpp" />
     <ClCompile Include="chapter-02\Test02.cpp" />
     <ClCompile Include="chapter-08\Test08.cpp" />
     <ClCompile Include="chapter-11\Test11.cpp" />
+    <ClCompile Include="chapter-03\Test03.cpp" />
+    <ClCompile Include="chapter-12\Test12.cpp" />
+    <ClCompile Include="chapter-13\Test13.cpp" />
+    <ClCompile Include="chapter-15\Test15.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter-01\Sales_item.h" />
@@ -93,6 +102,10 @@
     <ClInclude Include="chapter-02\Test02.h" />
     <ClInclude Include="chapter-08\Test08.h" />
     <ClInclude Include="chapter-11\Test11.h" />
+    <ClInclude Include="chapter-03\Test03.h" />
+    <ClInclude Include="chapter-12\Test12.h" />
+    <ClInclude Include="chapter-13\Test13.h" />
+    <ClInclude Include="chapter-15\Test15.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="chapter-01\README.md" />
@@ -109,8 +122,14 @@
     <None Include="chapter-02\2-1-ATTENTION.md" />
     <None Include="chapter-02\2-3-ATTENTION.md" />
     <None Include="chapter-02\2-4-ATTENTION.md" />
+    <None Include="chapter-02\2-5-ATTENTION.md" />
     <None Include="chapter-02\README.md" />
+    <None Include="chapter-03\3-02-ATTENTION.rst" />
+    <None Include="chapter-08\ATTENTION.md" />
     <None Include="chapter-08\README.md" />
+    <None Include="chapter-15\15_1_ATTENTION.md" />
+    <None Include="chapter-15\15_2_ATTENTION.md" />
+    <None Include="chapter-15\15_3_ATTENTION.md" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="chapter-01\1-06.txt" />

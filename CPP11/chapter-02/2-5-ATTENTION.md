@@ -1,14 +1,14 @@
 ### 2-5处理类型
 
-#### 2.5.1类型别名
+#### 2.5.1 类型别名
 1. 类型别名有两种方式进行创建
 2. typedef 语法: typedef double wages; wages就是double的同义词
 3. using别名声明 using SI = Sales_item; SI就是Sales_item的同义词  (新标准用法)
 4. 在普通类型中,其实还挺好理解的,但是在const和指针一起命名的时候就会产生难以理解的地方
 5. 所以应该从变量的类型角度去理解typedef的类型.
-比如: typedef char *pstring; 其实pstring的类型是一个常量指针, 也就是是指向char的常量指针
+比如: typedef char *pstring; 其实const pstring str; str 就是一个常量指针，str指针的必须初始化
 
-#### 2.5.2auto
+#### 2.5.2 auto
 1. 用来推测表达式的类型
 2. 因为一行只能表明一种数据类型,所以不能在auto中声明不同类型
 3. 符合类型和auto,对于引用来讲,auto推测的就是引用对象的类型,而非引用本身
@@ -28,3 +28,12 @@
 8. decltype(*p) 得到的是该类型的引用类型
 9. decltype((variable)) 这个是引用类型 decltype(variable) 这个取决于variable的类型
 10. 所以decltype始终是通过表达式来识别类型的,变量除外
+
+### typeid使用方法
+1. typeid(类型)
+2. typeid(变量)
+3. typeid会将顶层const属性和引用&属性忽略掉这个auto推断类型有的一拼
+
+### 还有一个需要注意的地方
+那就是const顺序的问题
+int const i; 和const int i;这两个定义具有相同的效果
