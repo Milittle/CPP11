@@ -12,18 +12,15 @@
 #include "chapter-12/Test12.h"
 #include "chapter-13/Test13.h"
 #include "chapter-15/Test15.h"
+#include "chapter-16/Test16.h"
 
 int main()
 {
-	Test15 tt;
-	tt.test_15_6();
-	int i = 1;
 
-	std::cout << (i >> 1) << std::endl;
-
-	std::cout << __FILE__ << std::endl;
-	std::cout << __FUNCTION__ << std::endl;
-	std::cout << __LINE__ << std::endl;
+	Blob<int> b = { 1, 2, 3, 4, 5,6 };
+	std::cout << b.size() << std::endl;
+	std::cout << b[5] << std::endl;
+	std::cout << compare("hi", "MOM") << "\n";
 
 	system("pause");
 	return 0;

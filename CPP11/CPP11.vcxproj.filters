@@ -240,6 +240,9 @@
     <ClCompile Include="chapter-15\15_6.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="chapter-16\Test16.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter-01\Sales_item.h">
@@ -272,6 +275,9 @@
     <ClInclude Include="chapter-15\Test15.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="chapter-16\Test16.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="chapter-01\README.md" />
@@ -296,6 +302,7 @@
     <None Include="chapter-15\15_1_ATTENTION.md" />
     <None Include="chapter-15\15_2_ATTENTION.md" />
     <None Include="chapter-15\15_3_ATTENTION.md" />
+    <None Include="chapter-16\16_1_ATTENTION.md" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="chapter-08\1.txt" />

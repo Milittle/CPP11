@@ -94,6 +94,7 @@
     <ClCompile Include="chapter-12\Test12.cpp" />
     <ClCompile Include="chapter-13\Test13.cpp" />
     <ClCompile Include="chapter-15\Test15.cpp" />
+    <ClCompile Include="chapter-16\Test16.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter-01\Sales_item.h" />
@@ -106,6 +107,7 @@
     <ClInclude Include="chapter-12\Test12.h" />
     <ClInclude Include="chapter-13\Test13.h" />
     <ClInclude Include="chapter-15\Test15.h" />
+    <ClInclude Include="chapter-16\Test16.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="chapter-01\README.md" />
@@ -130,6 +132,7 @@
     <None Include="chapter-15\15_1_ATTENTION.md" />
     <None Include="chapter-15\15_2_ATTENTION.md" />
     <None Include="chapter-15\15_3_ATTENTION.md" />
+    <None Include="chapter-16\16_1_ATTENTION.md" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="chapter-01\1-06.txt" />
