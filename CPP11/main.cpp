@@ -16,11 +16,9 @@
 
 int main()
 {
-
-	Blob<int> b = { 1, 2, 3, 4, 5,6 };
-	std::cout << b.size() << std::endl;
-	std::cout << b[5] << std::endl;
-	std::cout << compare("hi", "MOM") << "\n";
+	int i = 10;
+	char *a = "abcd";
+	errorMsg(std::cout, 1, "hello", i, a);
 
 	system("pause");
 	return 0;
